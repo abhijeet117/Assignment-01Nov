@@ -60,6 +60,57 @@ if (answer === null) {
 } */
 
 
+// 7. Ask user’s age and check if eligible to vote
+// If age >= 18 → “Eligible”, else → “Not eligible”
+
+/* let age = Number(prompt("Enter Your age "));
+
+if(age >= 18) {
+    console.log("Eligible")
+} else {
+    console.log("Not Eligible")
+} */
+
+
+// 8. Print multiplication table of 5
+// Use loop to print 5 × 1 to 5 × 10.
+
+
+/* for(let i =1; i<=10; i++) {
+    console.log(` 5 x ${i} = ${5 * i} `);
+} */
+
+
+// 9. Count how many numbers between 1 and 15 are greater than 8
+// Loop and count conditionally.    
+
+/* let count = 0;
+for (let i =1; i<= 15; i++) {
+    if(i>8) {
+        count++  
+    } 
+}
+console.log(count + " Times") */
+
+
+// 10. Ask user for password and print access status
+// Hardcoded correct password. Compare with user input.
+
+/* let password = "sheryians/src";
+
+let userInput = prompt("Please enter your password");
+
+if(userInput === password) {
+  console.log("Password Matched");
+} else {
+  console.warnj("Entered password did not matched");
+} */
+
+
+
+
+
+
 
 
 
