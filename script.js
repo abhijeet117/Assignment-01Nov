@@ -123,11 +123,9 @@ if (!matched) {
 }
  */
 
-
-// 12. Ask user for words until they type “stop”. 
+// 12. Ask user for words until they type “stop”.
 // Count how many times they typed “yes”
 // Loop until "stop" is typed. Count "yes".
-
 
 /* let userInput = prompt("Enter text");
 let count = 0;
@@ -141,7 +139,6 @@ while(userInput !== "stop"){
 }
 console.log("total count is "+ count); */
 
-
 // 13. Print numbers divisible by 7 from 1 to 50
 // Use modulo % and loop.
 
@@ -150,7 +147,6 @@ console.log("total count is "+ count); */
     console.log("divisible numbers are " + i)
   }
 } */
-
 
 // 14. Sum of all odd numbers from 1 to 30
 // Add only odd numbers. Print final sum.
@@ -163,7 +159,6 @@ for(let i = 1; i<=30; i++) {
 }
 console.log(sum); */
 
-
 // 15. Keep asking number until user enters an even number
 // Use while loop. Stop only if input is even.
 
@@ -173,14 +168,26 @@ while(userInput % 2 !== 0) {
   userInput = prompt("Try again");
 } */
 
-
 // 16. Print numbers between two user inputs
 // Input start and end using prompt() → print all between.
 
+/* let start = Number(prompt("Enter Starting num"));
+let end = Number(prompt("Enter Ending num"));
+
+if (start > end) {
+  for (let i = start - 1; i > end; i--) {
+    console.log(i);
+  }
+} else if(start < end) {
+  for (let i = start + 1; i < end; i++) {
+    console.log(i);
+  }
+} else {
+  console.log("Both number are same or invalid");
+} */
 
 /* 17. Print only first 3 odd numbers from 1 to 20
 Use loop. Stop with break after 3 odd prints. */
-
 
 /* let count = 0;
 for(let i = 1; i<=20; i++ ) {
@@ -193,7 +200,7 @@ for(let i = 1; i<=20; i++ ) {
   }
 } */
 
-  //chatGpt//
+//chatGpt//
 
 /* for(let i = 1, count = 0; count<3; i++ ) {
   if(i%2 !==0) {
@@ -202,11 +209,8 @@ for(let i = 1; i<=20; i++ ) {
   }
 } */
 
-
-
 // 18. Ask user 5 numbers. Count how many are positive
 // Use loop + condition + counter.
-
 
 /* let countP = 0;
 let countN = 0;
@@ -225,32 +229,43 @@ for(let i = 1; i<=5; i++) {
 console.log("positive Numbers are " + countP);
 console.log("Negative Numbers are " + countN); */
 
-
-
 // 19. ATM Simulator – Allow 3 withdrawals
 // Start with ₹1000 balance. Ask withdrawal amount 3 times.
 // If enough balance → deduct
 // Else → print “Insufficient balance”
 
+/* let sum = 0;
+let balance = 1000;
+let matched = false;
+for (let i = 0; i <= 2; i++) {
+  let val = Number(prompt("Enter value"));
+  sum += val;
+  if (sum === balance) {
+    matched = true;
+    console.log("Deduct");
+  }
+}
+if (!matched) {
+  console.log("Insufficient balance");
+}
+ */
 
+/* let balance = 1000;
+let attempt = 0;
 
+for (let i = 0; i < 3; i++) {
+  let val = Number(prompt("Enter your withdraw amount"));
+  attempt++;
+  if (val > balance || balance === 0) {
+    console.log("insufficient balance");
+    break;
+  } else {
+    balance -= val;
+    console.log(`Withdraw Successful, Remaining balance is ${balance}`);
+  }
+}
+if (attempt === 3) {
+  console.error("Maxium time reached");
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(`Available balance : ${balance}`); */
