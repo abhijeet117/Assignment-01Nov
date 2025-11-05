@@ -269,3 +269,32 @@ if (attempt === 3) {
 }
 
 console.log(`Available balance : ${balance}`); */
+
+
+// 20. **Ask user for a number and print its double**  
+//     → Example: input 5 → output 10.
+
+
+let userInput = prompt("please enter your number");
+
+if (userInput === null) {
+  console.error("Cancel by user!")
+} else{
+  let uInput = Number(userInput);
+
+  if(uInput.trim() === "") {
+    console.warn("please don't enter blank space");
+  } else if (isNaN(uInput)) {
+    console.log("enter a valid number")
+  } else {
+    console.log(`Your Double number is ${uInput * 2}`)
+  }
+}
+
+
+
+
+
+
+
+
