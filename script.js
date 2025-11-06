@@ -316,6 +316,17 @@ for (let i = 1; i<=50; i++) {
 console.log("Total number divisible by 5 is " + count); */
 
 
+// 23. **Ask user for a number and print its multiplication table**  
+//     → Example: input 7 → print 7×1 to 7×10.
+
+
+/* let number = prompt("Enter you number");
+
+for(let i = 1; i<=10; i++) {
+  console.log(`${number} x ${i} = ${number * i}`)
+} */
+
+
 
 
 
