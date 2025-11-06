@@ -327,7 +327,17 @@ for(let i = 1; i<=10; i++) {
 } */
 
 
+// 24. **Ask user for 5 numbers and print their total sum**  
+//     → Use loop and `+=` to accumulate.
 
+/* let sum = 0;
+for (let i =1; i<=5; i++) {
+  let num = +prompt("Enter your number");
+  
+  sum += num
+  
+}
+console.log(sum); */
 
 
 
