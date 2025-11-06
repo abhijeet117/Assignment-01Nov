@@ -288,3 +288,62 @@ if (userInput === null) {
     console.log(`Your Double number is ${uInput * 2}`);
   }
 } */
+
+// 21. **Ask user for two numbers and print which one is smaller**  
+//     → Use `if-else` to compare.
+
+
+/* let num1 = prompt("Enter num1");
+let num2 = prompt("Enter num 2")
+
+if(num1>num2) {
+  console.log(`${num2} : num2 is smaller.`)
+} else {
+  console.log(`${num1} : num1 is smaller`)
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
