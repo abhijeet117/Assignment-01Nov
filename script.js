@@ -354,8 +354,7 @@ for (let i = 1; i <= 3; i++) {
   console.log(`Welcome ${name}`);
 } */
 
-
-// 27. **Ask user for a number and check if it’s divisible by 3 and 5**  
+// 27. **Ask user for a number and check if it’s divisible by 3 and 5**
 //     → If yes → print “FizzBuzz”, else → print number.
 
 /* let num = +prompt("Enter your number");
@@ -366,9 +365,8 @@ if (num % 3 === 0 && num % 5 === 0) {
   console.log(num);
 } */
 
-// 28. **Ask user for a number and print if it’s even or odd**  
+// 28. **Ask user for a number and print if it’s even or odd**
 //     → Use `% 2` condition.
-
 
 /* let num = +prompt("Enter your num");
 
@@ -378,8 +376,7 @@ if(num % 2 === 0) {
   console.log("Number is odd");
 } */
 
-
-// 29. **Print only numbers between 1 and 20 that are NOT divisible by 4**  
+// 29. **Print only numbers between 1 and 20 that are NOT divisible by 4**
 //     → Use `if (i % 4 !== 0)`.
 
 /* for(let i = 0; i<= 20; i++) {
@@ -388,6 +385,18 @@ if(num % 2 === 0) {
   }
 } */
 
-// 30. **Ask user for 3 numbers and print their average**  
+// 30. **Ask user for 3 numbers and print their average**
 //     → Use simple arithmetic.
 
+/* let num;
+let sum = 0;
+let count = 0;
+ 
+for (let i =1; i<=3; i++) {
+  num = +prompt("Enter your number");
+  count++
+  sum += num;
+
+}
+
+console.log( `Your avarage is ${sum / count}`); */
