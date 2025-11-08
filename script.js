@@ -289,9 +289,8 @@ if (userInput === null) {
   }
 } */
 
-// 21. **Ask user for two numbers and print which one is smaller**  
+// 21. **Ask user for two numbers and print which one is smaller**
 //     → Use `if-else` to compare.
-
 
 /* let num1 = prompt("Enter num1");
 let num2 = prompt("Enter num 2")
@@ -303,8 +302,7 @@ if(num1>num2) {
 }
  */
 
-
-// 22. **Print all numbers from 1 to 50 that are divisible by 5**  
+// 22. **Print all numbers from 1 to 50 that are divisible by 5**
 //     → Use loop + `%` condition.
 /* 
 let count = 0;
@@ -315,10 +313,8 @@ for (let i = 1; i<=50; i++) {
 }
 console.log("Total number divisible by 5 is " + count); */
 
-
-// 23. **Ask user for a number and print its multiplication table**  
+// 23. **Ask user for a number and print its multiplication table**
 //     → Example: input 7 → print 7×1 to 7×10.
-
 
 /* let number = prompt("Enter you number");
 
@@ -326,8 +322,7 @@ for(let i = 1; i<=10; i++) {
   console.log(`${number} x ${i} = ${number * i}`)
 } */
 
-
-// 24. **Ask user for 5 numbers and print their total sum**  
+// 24. **Ask user for 5 numbers and print their total sum**
 //     → Use loop and `+=` to accumulate.
 
 /* let sum = 0;
@@ -339,43 +334,25 @@ for (let i =1; i<=5; i++) {
 }
 console.log(sum); */
 
+// 25. **Print numbers between 1 and 30 but skip 15**
+//     → Use `continue` statement.
 
+/* for (let i = 0; i <= 30; i++) {
+  if (i === 15) continue;
+  else {
+    console.log(i);
+  }
+} */
 
+// 26. **Ask user for name 3 times and print “Welcome [name]” each time**
+//     → Simple for loop with prompt.
 
+/* let name;
+for (let i = 1; i <= 3; i++) {
+  name = prompt("enter your name");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  console.log(`Welcome ${name}`);
+} */
 
 
 
