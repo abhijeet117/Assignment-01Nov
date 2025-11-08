@@ -355,4 +355,27 @@ for (let i = 1; i <= 3; i++) {
 } */
 
 
+// 27. **Ask user for a number and check if it’s divisible by 3 and 5**  
+//     → If yes → print “FizzBuzz”, else → print number.
+
+/* let num = +prompt("Enter your number");
+
+if (num % 3 === 0 && num % 5 === 0) {
+  console.log("“FizzBuzz”");
+} else {
+  console.log(num);
+} */
+
+// 28. **Ask user for a number and print if it’s even or odd**  
+//     → Use `% 2` condition.
+
+
+/* let num = +prompt("Enter your num");
+
+if(num % 2 === 0) {
+  console.log("Even Number");
+} else if(num % 2 !== 0) {
+  console.log("Number is odd");
+} */
+
 
