@@ -400,3 +400,61 @@ for (let i =1; i<=3; i++) {
 }
 
 console.log( `Your avarage is ${sum / count}`); */
+
+
+// 31. **Print squares of numbers from 1 to 10**  
+//     → Example: 1²=1, 2²=4, 3²=9...
+
+/* for (let i = 1; i <= 10; i++) {
+  console.log(i**2);
+} */
+
+
+/* 32. **Ask user for a number and print all numbers up to that number**  
+    → Example: input 7 → output: 1 2 3 4 5 6 7. */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
