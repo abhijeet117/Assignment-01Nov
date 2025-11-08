@@ -379,3 +379,15 @@ if(num % 2 === 0) {
 } */
 
 
+// 29. **Print only numbers between 1 and 20 that are NOT divisible by 4**  
+//     → Use `if (i % 4 !== 0)`.
+
+/* for(let i = 0; i<= 20; i++) {
+  if(i%4 !== 0) {
+    console.log(i)
+  }
+} */
+
+// 30. **Ask user for 3 numbers and print their average**  
+//     → Use simple arithmetic.
+
