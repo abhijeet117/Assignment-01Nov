@@ -401,60 +401,29 @@ for (let i =1; i<=3; i++) {
 
 console.log( `Your avarage is ${sum / count}`); */
 
-
-// 31. **Print squares of numbers from 1 to 10**  
+// 31. **Print squares of numbers from 1 to 10**
 //     → Example: 1²=1, 2²=4, 3²=9...
 
 /* for (let i = 1; i <= 10; i++) {
   console.log(i**2);
 } */
 
-
 /* 32. **Ask user for a number and print all numbers up to that number**  
     → Example: input 7 → output: 1 2 3 4 5 6 7. */
 
+let n = prompt("Enter your number");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if (n === null) {
+  console.log("User cancel the request");
+} else if (n.trim() === "") {
+  console.log("User gives blank space");
+} else {
+  let number = Number(n);
+  if (isNaN(number)) {
+    console.log("Please enter numbers only!");
+  } else {
+    for (let i = 1; i <= number; i++) {
+      console.log(i);
+    }
+  }
+}
